@@ -1,1 +1,1 @@
-ffmpeg -r 30 -i %04d.jpeg -s hd480 -vcodec libx264 -vpre hq time-lapse.mp4
+ffmpeg -r 30 -i ./images/%04d.jpeg -s hd480 -vcodec libx264 -pix_fmt yuv420p time-lapse.mp4
